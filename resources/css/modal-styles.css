@@ -1,0 +1,30 @@
+/* Modal Styles for Leave Request Actions */
+
+/* Ensure modal buttons are always visible */
+#approveBtn, #rejectBtn {
+    background-color: #16a34a !important;
+    color: white !important;
+    border: none !important;
+    font-weight: 600 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+}
+
+#approveBtn:hover, #rejectBtn:hover {
+    background-color: #15803d !important;
+    transform: translateY(-1px) !important;
+}
+
+#rejectBtn {
+    background-color: #dc2626 !important;
+}
+
+#rejectBtn:hover {
+    background-color: #b91c1c !important;
+}
+
+/* Ensure buttons are not hidden */
+#approveBtn, #rejectBtn, #approveCancelBtn, #rejectCancelBtn {
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
