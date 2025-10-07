@@ -91,6 +91,7 @@ npm run build
 ```bash
 # Start Laravel development server
 php artisan serve
+Npm Run Dev
 
 # The application will be available at http://127.0.0.1:8000
 ```
