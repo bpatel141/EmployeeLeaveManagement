@@ -8,4 +8,15 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    server: {
+        host: '0.0.0.0',
+        port: 5173,
+        hmr: {
+            host: 'laravel.local',
+        },
+        cors: {
+            origin: ['http://laravel.local', 'http://localhost', 'http://127.0.0.1'],
+            credentials: true,
+        },
+    },
 });
